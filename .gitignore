@@ -1,0 +1,32 @@
+# data
+data/*.json
+data/attachments/
+data/*.ost
+data/*.pst
+!data/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node
+web/node_modules/
+web/.next/
+web/_test.json
+
+# logs / secrets
+*.log
+.env
+.env.*
+
+# editor / OS
+.vscode/
+.idea/
+*.swp
+*.bak
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
